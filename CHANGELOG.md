@@ -1,9 +1,23 @@
 # Changelog
 
+
+## 0.0.18
+
+- Support `Static Map API`, thanks to @LBreitembach
+- fix(autocomplete): add origin parameter to autocomplete queries, thanks to @safarmer
+
+## 0.0.17
+
+- Add 'region' parameter to 'getDetailsByPlaceId'
+- Fix type mismatch on PlacesDetailsResponse.fromJson(json)
+
+## 0.0.16
+
+- Fix alternatives params
+
 ## 0.0.15
 
 - Handle 'now' string for departure_time
-- Fix alternatives params
 - fix GeocodedWaypoint.partialMatch type (now a boolean)
 
 ## 0.0.14
